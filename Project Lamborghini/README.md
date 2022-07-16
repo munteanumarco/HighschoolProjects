@@ -1,8 +1,8 @@
 # Lamborghini Website Project
 
-I tried to recreate the famous manufacturer's page with the new skills aquired :D. Used HTML, CSS and JS.
-
-Here are some images :
+I tried to recreate the famous manufacturer's page with the new skills aquired :D. 
+Technologies used : HTML, CSS and JS.
+Here are some images of the website:
 
 
 <h1> Home page </h1>
