@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Configure your Lamborghini</title>
+        <meta name="viewport" content="width=device-widt, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+        <link rel=" stylesheet" href ="../models.css">
+        <link rel="icon" href="../images/logo.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="../index.html"><img class = "fade" src="../images/logo.jpg" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li>
+                            <div class="dropdown">
+                                <button>Models</button>
+                                    <div class="dropdown-content">
+                                        <a href="aventador.html">Aventador</a><br>
+                                        <a href="huracan.html">Huracán</a><br>
+                                        <a href="urus.html">Urus</a><br>
+                                    </div>
+                            </div>
+                    </li>
+
+                    <li><button onclick="window.open('./motorsport.html','_self')">Motorsport</button></li>
+                    <li><button onclick="window.open('./museum.html','_self')">Museum</button></li>
+                    <li><button onclick="window.open('./quiz.html','_self')">Quiz</button></li>
+                    <li><button onclick="window.open('./conf.html','_self')">Prices</button></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html">Contact</a>
+        </header>
+
+        <div class="bgimg" style="background-image: url('../images/lambo.jpg');" >
+            <div class="caption animate__animated animate__slideInLeft">
+              <div style="padding-top: 240px; font-size: 55px;">Lamborghini Models<br></div>
+            </div>
+        </div>
+
+        <header class="second-header white_mode">
+            <h1>Unexpected<span><p class="animate__animated animate__slideInUp">experiences</p></span></h1>
+        </header>
+
+
+        <div class = "models-btn">
+            <button onclick = "show('aventador')" class="news-btn">Aventador</button>
+            <button onclick = "show('huracan')" class="news-btn">Huracán</button>
+            <button onclick = "show('urus')" class="news-btn">Urus</button>
+        </div>
+
+        <h1 id = "price" style="visibility: hidden;color: black; text-align: center;"></h1>
+        
+        <div id = "main" class="container"  style="visibility: hidden;">
+            <img id = "img1" src="" style="width: 50%; margin-left:25%"><br>
+        </div>
+
+
+        <div class="footer">
+            <p>Information taken from <a href="https://www.lamborghini.com/" target = "_blank" style="color: black;font-weight: 300;text-decoration: none;">lamborghini.com</a></p>
+          </div>
+          <script src="../conf.js"></script>
+    </body>
+</html>

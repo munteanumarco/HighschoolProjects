@@ -1,0 +1,58 @@
+.formular{
+            width: 100%;  
+            min-height: 100vh;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            background: rgb(51, 133, 255);
+            background: -webkit-linear-gradient(-140deg, rgb(171, 205, 255) , rgb(51, 133, 255));
+             }
+            .input_div {
+            position: relative;
+            width: 100%;
+            z-index: 1;
+            margin-bottom: 10px;
+             }
+        .input_login {
+            font-family: Poppins-Medium;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #666666;
+        
+            display: block;
+            width: 100%;
+            background: whitesmoke;
+            height: 50px;
+            border: none;
+            border-radius: 2vw;
+            padding: 0 30px 0 68px;
+        }
+        .titlu {
+            font-family: Poppins-Bold;
+            font-size: 24px;
+            color: whitesmoke;
+            line-height: 1.2;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 4vw;
+            width: 100%;
+            display: block;
+            padding-bottom: 54px;
+        }
+        .buttons {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+        }

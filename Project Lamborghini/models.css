@@ -1,0 +1,189 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+
+}
+
+.bgimg {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+
+.caption {
+  padding-left: 50px;
+  color: white;
+  font-size: 80px;
+  font-weight: 1000;
+}
+
+.aligned{
+  display: flex; 
+  align-items: center;
+  margin: 30px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  margin-bottom: 50px;
+  overflow: auto;
+  padding: 0 2rem;
+  color: black;
+}
+
+
+/* models - info cards */
+.card img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  color: white;
+  background: #000000;
+  margin-bottom: 2rem;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.card h3{
+  color: #bf8923;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+
+
+.second-header {
+  height: 45vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.second-header.white_mode{
+  background-color: white;
+  color: black;
+}
+
+.second-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.second-header h1 span {
+    color:  #bf8923;
+}
+
+.news-btn{
+  padding: 9px 25px;
+  background-color: #bf8923;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+.text{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px;
+}
+.text.museum{
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.squadra{
+  float: left;
+  width: 60%;
+  border-radius: 50px;
+}
+
+.mapouter{
+  position:relative;
+  height:576px;
+  width:978px;
+  margin-bottom: 140px;
+}
+.gmap_canvas {
+  background:none;
+  display: block;
+  height:576px;
+  width:978px;
+  margin-left: 50%;
+}
+
+.quiz{
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 100px;
+}
+.quiz img{
+  float: right; 
+  width: 20%; 
+  padding:20px;
+  border-radius: 40px;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.models-btn{    
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
